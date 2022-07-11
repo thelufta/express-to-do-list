@@ -10,5 +10,5 @@ Express ile hazırlamış olduğum web sayfası üzerinden kullanılan bir yapı
 ![TO-DO List 1](https://cdn.discordapp.com/attachments/996132843644268544/996132870852718642/1.PNG)
 ![TO-DO List 2](https://cdn.discordapp.com/attachments/996132843644268544/996132871079206974/2.PNG)
 ## İletişim
-![Discord Profilim](discord.com/users/962483267683119105)
+[Discord Profilim](https://discord.com/users/962483267683119105)
 - Herhangi bir sorun ile karşılaşırsanız benimle iletişime geçebilirsiniz.
