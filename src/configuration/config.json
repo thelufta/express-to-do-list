@@ -1,0 +1,9 @@
+{
+    "Site": {
+        "Port": 3000
+    },
+
+    "Database": {
+        "Url": "MongoDB Connection Url"
+    }
+}

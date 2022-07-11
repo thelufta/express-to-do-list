@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>To-Do List - Lufta</title>
+</head>
+<body>
+    <h1><span class="heading">TO-DO</span> List</h1>
+    <div class="input_div">
+        <form action="/" method="POST">
+            <input type="text" name="input" class="input" placeholder="Eklemek istediğinizi yazın...">
+            <button type="submit" class="addButton"><i class="fas fa-plus"></i></button>
+        </form>
+    </div>
+   <div id="box">
+    <%items.forEach(function(item) { %>
+        <form action="/delete" method="POST">
+            <div id="item">
+                <button name="deleteitem" value="<%=item.id%>" onchange="this.form.submit()" class="deletebutton"><i class="fa fa-trash"></i></button>
+                <p><%=item.item%></p> <p><%=item.date%></p>
+            </div>
+        </form>
+    <% }) %>
+   </div>
+   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+</body>
+</html>
